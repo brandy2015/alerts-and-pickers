@@ -188,7 +188,9 @@ final class PhotoLibraryPickerViewController: UIViewController {
                 self.alertController?.dismiss(animated: true)
             }
             alert.show()
+            default:print("未发现")
         }
+        
     }
     
     func fetchPhotos(completionHandler: @escaping ([PHAsset]) -> ()) {
