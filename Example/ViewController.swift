@@ -164,15 +164,15 @@ class ViewController: UIViewController {
         
         title = "Alerts & Pickers"
         
-        navigationController?.navigationBar.backgroundColor = .white
-        navigationController?.navigationBar.tintColor = .black
-        navigationController?.navigationBar.isTranslucent = false
-        navigationController?.navigationBar.shadowImage = UIImage()
+//        navigationController?.navigationBar.backgroundColor = .white
+//        navigationController?.navigationBar.tintColor = .black
+//        navigationController?.navigationBar.isTranslucent = false
+//        navigationController?.navigationBar.shadowImage = UIImage()
         
-        if #available(iOS 11.0, *) {
-            navigationController?.navigationBar.prefersLargeTitles = true
-            //navigationItem.largeTitleDisplayMode = .always
-        }
+//        if #available(iOS 11.0, *) {
+//            navigationController?.navigationBar.prefersLargeTitles = true
+//            //navigationItem.largeTitleDisplayMode = .always
+//        }
         
         layout.itemSize = itemSize
         collectionView.collectionViewLayout.invalidateLayout()
